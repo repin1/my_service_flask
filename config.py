@@ -1,0 +1,7 @@
+""" You can watch and change app's configs here"""
+
+import os
+
+
+class Config(object):
+    SECRET_KEY = os.environ.get('SECRET_KEY') or 'you-will-never-guess'
